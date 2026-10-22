@@ -1,0 +1,15 @@
+{
+  "name": "A Caminhada de Carlo",
+  "short_name": "Carlo RPG",
+  "description": "RPG educativo sobre a vida de Carlo Acutis, de Londres e Milão até Assis.",
+  "lang": "pt-BR",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#1b1f3b",
+  "theme_color": "#1b1f3b",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

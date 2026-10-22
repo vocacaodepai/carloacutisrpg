@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <title>A Caminhada de Carlo</title>
+  <meta name="description" content="RPG educativo sobre a vida de Carlo Acutis: de Londres e Milão até Assis.">
+  <meta name="theme-color" content="#1b1f3b">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <div id="screen">
+      <canvas id="c" width="320" height="224"></canvas>
+
+      <div id="hud" hidden><span id="obj"></span><span id="stats"></span></div>
+      <div id="toast" hidden></div>
+
+      <div id="dialog" hidden>
+        <div id="who"></div>
+        <div id="text"></div>
+        <div id="choices" hidden></div>
+        <div id="next">▼</div>
+      </div>
+
+      <div id="overlay"></div>
+      <div id="fade"></div>
+    </div>
+
+    <div id="pad" aria-label="Controles">
+      <div id="dpad">
+        <div class="k up" data-d="up">▲</div>
+        <div class="k left" data-d="left">◀</div>
+        <div class="k right" data-d="right">▶</div>
+        <div class="k down" data-d="down">▼</div>
+      </div>
+      <div id="btnA">A</div>
+    </div>
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
